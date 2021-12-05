@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "asn": 61138,
+    "name": "ZAPPIE-HOST-AS",
+    "description_short": "Zappie Host",
+    "description_full": [
+      "Zappie Host"
+    ],
+    "country_code": "US",
+    "website": "https://zappiehost.com/",
+    "email_contacts": [
+      "abuse@zappiehost.com",
+      "admin@zappiehost.com",
+      "noc@zappiehost.com"
+    ],
+    "abuse_contacts": [
+      "abuse@zappiehost.com"
+    ],
+    "looking_glass": "https://lg-nz.zappiehost.com",
+    "traffic_estimation": "1-5Gbps",
+    "traffic_ratio": "Mostly Outbound",
+    "owner_address": [
+      "16192 Coastal HWY",
+      "DE 19958",
+      "Lewes",
+      "UNITED STATES"
+    ],
+    "rir_allocation": {
+      "rir_name": "RIPE",
+      "country_code": "US",
+      "date_allocated": "2015-03-04 00:00:00",
+      "allocation_status": "allocated"
+    },
+    "iana_assignment": {
+      "assignment_status": "assigned",
+      "description": "Assigned by RIPE NCC",
+      "whois_server": "whois.ripe.net",
+      "date_assigned": null
+    },
+    "date_updated": "2021-11-21 04:02:05"
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "24.48 ms"
+  }
+}

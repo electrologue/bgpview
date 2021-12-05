@@ -1,0 +1,61 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": [
+    {
+      "ix_id": 585,
+      "name": "EVIX",
+      "name_full": "Experimental Virtual Internet Exchange",
+      "country_code": "US",
+      "city": "Fremont",
+      "ipv4_address": "206.81.104.165",
+      "ipv6_address": "2602:fed2:fff:ffff::165",
+      "speed": 100
+    },
+    {
+      "ix_id": 599,
+      "name": "LL-IX",
+      "name_full": "LL-IX",
+      "country_code": "RO",
+      "city": "Haarlem, Katowice, Fremont, Warsaw",
+      "ipv4_address": "5.101.92.255",
+      "ipv6_address": "2001:678:4fc::92:255",
+      "speed": 100
+    },
+    {
+      "ix_id": 780,
+      "name": "TOHU IX",
+      "name_full": "TOHU IX",
+      "country_code": "CN",
+      "city": "Guangzhou",
+      "ipv4_address": null,
+      "ipv6_address": "2406:840:eb8f:1:0:6:1138:1",
+      "speed": 100
+    },
+    {
+      "ix_id": 829,
+      "name": "PyramIX",
+      "name_full": "Pyramids Internet Exchange",
+      "country_code": "EG",
+      "city": "Cairo",
+      "ipv4_address": "104.167.214.111",
+      "ipv6_address": "2a0e:46c4:102::611:38:1",
+      "speed": 100
+    },
+    {
+      "ix_id": 857,
+      "name": "HamroIX-Amsterdam",
+      "name_full": "Hamro Internet eXchange",
+      "country_code": "NL",
+      "city": "Amsterdam",
+      "ipv4_address": "104.167.214.131",
+      "ipv6_address": "2a0e:b107:f21::113",
+      "speed": 100
+    }
+  ],
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "22.68 ms"
+  }
+}

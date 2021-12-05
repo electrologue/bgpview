@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "name": "MIXP.me",
+    "name_full": "Montenegro Internet eXchange Point",
+    "website": "http://www.mixp.me/eng/",
+    "tech_email": "mixp@ac.me",
+    "tech_phone": "+38220414282",
+    "policy_email": "mixp@ac.me",
+    "policy_phone": null,
+    "city": "Podgorica",
+    "country_code": "ME",
+    "url_stats": null,
+    "members_count": 2,
+    "members": [
+      {
+        "asn": 200608,
+        "name": "MIXP",
+        "description": "University of Montenegro",
+        "country_code": "ME",
+        "ipv4_address": "185.1.44.1",
+        "ipv6_address": "2001:7f8:22::1",
+        "speed": 1000
+      },
+      {
+        "asn": 210762,
+        "name": "FROOT_TGD1",
+        "description": "Internet Systems Consortium Inc.",
+        "country_code": "US",
+        "ipv4_address": "185.1.44.90",
+        "ipv6_address": "2001:7f8:22::a",
+        "speed": 10000
+      }
+    ]
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "16.73 ms"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "ipv4_downstreams": [],
+    "ipv6_downstreams": [
+      {
+        "asn": 211876,
+        "name": "FIXMIX-GEN",
+        "description": "fixmix Technologies",
+        "country_code": "GB"
+      },
+      {
+        "asn": 147028,
+        "name": "WANGYONGJIN-AS-JP",
+        "description": "Wang Yongjin",
+        "country_code": "HK"
+      },
+      {
+        "asn": 147297,
+        "name": "FATBOY-NETWORKS",
+        "description": "Fat Boy Networks LLC",
+        "country_code": "US"
+      },
+      {
+        "asn": 209870,
+        "name": "OPTIX-AS",
+        "description": "Optix Transit Ltd",
+        "country_code": "GB"
+      },
+      {
+        "asn": 212085,
+        "name": "BRUEGGUS-AS",
+        "description": "Alexander Bruegmann",
+        "country_code": "DE"
+      },
+      {
+        "asn": 210481,
+        "name": "EDGENET",
+        "description": "Personal ASN",
+        "country_code": "RU"
+      },
+      {
+        "asn": 14570,
+        "name": "IABAL-PUBLIC-01",
+        "description": "Ansible Networks, LLC",
+        "country_code": "US"
+      }
+    ]
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "20.23 ms"
+  }
+}

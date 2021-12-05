@@ -1,0 +1,393 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "asns": [
+      {
+        "asn": 133165,
+        "name": "DIGITALOCEAN-AS-AP",
+        "description": "Digital Ocean, Inc.",
+        "country_code": "SG",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC"
+      },
+      {
+        "asn": 135340,
+        "name": "DIGITALOCEAN-AS-IN",
+        "description": "Digital Ocean, Inc.",
+        "country_code": "US",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC"
+      },
+      {
+        "asn": 14061,
+        "name": "DIGITALOCEAN-ASN",
+        "description": "DigitalOcean, LLC",
+        "country_code": "US",
+        "email_contacts": [
+          "abuse@digitalocean.com",
+          "noc@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN"
+      },
+      {
+        "asn": 393406,
+        "name": "DIGITALOCEAN-AS393406",
+        "description": "DigitalOcean, LLC",
+        "country_code": "US",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN"
+      },
+      {
+        "asn": 394362,
+        "name": "DIGITALOCEAN-AS394362",
+        "description": "DigitalOcean, LLC",
+        "country_code": "US",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN"
+      },
+      {
+        "asn": 39690,
+        "name": "DigitalOcean-NOC",
+        "description": "Digital Ocean SRL",
+        "country_code": "MD",
+        "email_contacts": [
+          "abuse@digitalocean.eu.com",
+          "info@digitalocean.eu.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.eu.com"
+        ],
+        "rir_name": "RIPE"
+      },
+      {
+        "asn": 62567,
+        "name": "DIGITALOCEAN-AS62567",
+        "description": "DigitalOcean, LLC",
+        "country_code": "US",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN"
+      }
+    ],
+    "ipv4_prefixes": [
+      {
+        "prefix": "103.253.144.0/22",
+        "ip": "103.253.144.0",
+        "cidr": 22,
+        "name": "DIGITALOCEAN-AP",
+        "country_code": "SG",
+        "description": "Digital Ocean, Inc.",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "103.253.144.0/22",
+        "parent_ip": "103.253.144.0",
+        "parent_cidr": 22
+      },
+      {
+        "prefix": "103.253.145.0/24",
+        "ip": "103.253.145.0",
+        "cidr": 24,
+        "name": "DIGITALOCEAN-AP",
+        "country_code": "SG",
+        "description": "Digital Ocean, Inc.",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "103.253.144.0/22",
+        "parent_ip": "103.253.144.0",
+        "parent_cidr": 22
+      },
+      {
+        "prefix": "103.253.147.0/24",
+        "ip": "103.253.147.0",
+        "cidr": 24,
+        "name": "DIGITALOCEAN-AP",
+        "country_code": "SG",
+        "description": "Digital Ocean, Inc.",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "103.253.144.0/22",
+        "parent_ip": "103.253.144.0",
+        "parent_cidr": 22
+      },
+      {
+        "prefix": "104.131.0.0/16",
+        "ip": "104.131.0.0",
+        "cidr": 16,
+        "name": "DIGITALOCEAN-104-131-0-0",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "104.131.0.0/16",
+        "parent_ip": "104.131.0.0",
+        "parent_cidr": 16
+      },
+      {
+        "prefix": "104.131.0.0/18",
+        "ip": "104.131.0.0",
+        "cidr": 18,
+        "name": "DIGITALOCEAN-104-131-0-0",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "104.131.0.0/16",
+        "parent_ip": "104.131.0.0",
+        "parent_cidr": 16
+      },
+      {
+        "prefix": "104.236.0.0/16",
+        "ip": "104.236.0.0",
+        "cidr": 16,
+        "name": "DIGITALOCEAN-104-236-0-0",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "104.236.0.0/16",
+        "parent_ip": "104.236.0.0",
+        "parent_cidr": 16
+      },
+      {
+        "prefix": "138.197.112.0/20",
+        "ip": "138.197.112.0",
+        "cidr": 20,
+        "name": "DIGITALOCEAN-138-197-0-0",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "138.197.0.0/16",
+        "parent_ip": "138.197.0.0",
+        "parent_cidr": 16
+      }
+    ],
+    "ipv6_prefixes": [
+      {
+        "prefix": "2400:6180:100::/40",
+        "ip": "2400:6180:100::",
+        "cidr": 40,
+        "name": "DIGITALOCEAN-AP-20131119",
+        "country_code": "SG",
+        "description": "Digital Ocean, Inc.",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "2400:6180::/32",
+        "parent_ip": "2400:6180::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2400:6180::/48",
+        "ip": "2400:6180::",
+        "cidr": 48,
+        "name": "DIGITALOCEAN-AP-20131119",
+        "country_code": "SG",
+        "description": "Digital Ocean, Inc.",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "2400:6180::/32",
+        "parent_ip": "2400:6180::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2400:6180:f000::/36",
+        "ip": "2400:6180:f000::",
+        "cidr": 36,
+        "name": "DIGITALOCEAN-AP",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "APNIC",
+        "parent_prefix": "2400:6180::/32",
+        "parent_ip": "2400:6180::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2604:a880:1::/48",
+        "ip": "2604:a880:1::",
+        "cidr": 48,
+        "name": "DIGITALOCEAN",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2604:a880::/32",
+        "parent_ip": "2604:a880::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2604:a880:2::/48",
+        "ip": "2604:a880:2::",
+        "cidr": 48,
+        "name": "DIGITALOCEAN",
+        "country_code": "US",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "noc@digitalocean.com",
+          "abuse@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "ARIN",
+        "parent_prefix": "2604:a880::/32",
+        "parent_ip": "2604:a880::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2a03:b0c0:3::/48",
+        "ip": "2a03:b0c0:3::",
+        "cidr": 48,
+        "name": "DIGITALOCEAN",
+        "country_code": "DE",
+        "description": "DIGITALOCEAN",
+        "email_contacts": [
+          "abuse@digitalocean.com",
+          "noc@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "RIPE",
+        "parent_prefix": "2a03:b0c0::/32",
+        "parent_ip": "2a03:b0c0::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2a03:b0c0::/48",
+        "ip": "2a03:b0c0::",
+        "cidr": 48,
+        "name": "DIGITALOCEAN",
+        "country_code": "NL",
+        "description": "DIGITALOCEAN",
+        "email_contacts": [
+          "abuse@digitalocean.com",
+          "noc@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "RIPE",
+        "parent_prefix": "2a03:b0c0::/32",
+        "parent_ip": "2a03:b0c0::",
+        "parent_cidr": 32
+      },
+      {
+        "prefix": "2a03:b0c0::/32",
+        "ip": "2a03:b0c0::",
+        "cidr": 32,
+        "name": "US-DIGITALOCEANLLC-20121228",
+        "country_code": "NL",
+        "description": "DigitalOcean, LLC",
+        "email_contacts": [
+          "abuse@digitalocean.com",
+          "noc@digitalocean.com"
+        ],
+        "abuse_contacts": [
+          "abuse@digitalocean.com"
+        ],
+        "rir_name": "RIPE",
+        "parent_prefix": "2a03:b0c0::/32",
+        "parent_ip": "2a03:b0c0::",
+        "parent_cidr": 32
+      }
+    ],
+    "internet_exchanges": []
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "95.27 ms"
+  }
+}

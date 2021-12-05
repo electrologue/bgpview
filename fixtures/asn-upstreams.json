@@ -1,0 +1,66 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "ipv4_upstreams": [
+      {
+        "asn": 137409,
+        "name": "GSLNETWORKS-AS-AP",
+        "description": "GSL Networks Pty LTD",
+        "country_code": "AU"
+      },
+      {
+        "asn": 37153,
+        "name": "xneelo",
+        "description": "xneelo (Pty) Ltd",
+        "country_code": "ZA"
+      },
+      {
+        "asn": 270013,
+        "name": "J AND J SPA (INFOFRACTAL)",
+        "description": "J AND J SPA (INFOFRACTAL)",
+        "country_code": "CL"
+      }
+    ],
+    "ipv6_upstreams": [
+      {
+        "asn": 137409,
+        "name": "GSLNETWORKS-AS-AP",
+        "description": "GSL Networks Pty LTD",
+        "country_code": "AU"
+      },
+      {
+        "asn": 37153,
+        "name": "xneelo",
+        "description": "xneelo (Pty) Ltd",
+        "country_code": "ZA"
+      },
+      {
+        "asn": 270013,
+        "name": "J AND J SPA (INFOFRACTAL)",
+        "description": "J AND J SPA (INFOFRACTAL)",
+        "country_code": "CL"
+      },
+      {
+        "asn": 35661,
+        "name": "VIRTUA-SYSTEMS",
+        "description": "VIRTUA SYSTEMS SAS",
+        "country_code": "FR"
+      },
+      {
+        "asn": 36369,
+        "name": "LIMEWAVE",
+        "description": "Limewave Communications",
+        "country_code": "CA"
+      }
+    ],
+    "ipv4_graph": "https://api.bgpview.io/assets/graphs/AS61138_IPv4.svg",
+    "ipv6_graph": "https://api.bgpview.io/assets/graphs/AS61138_IPv6.svg",
+    "combined_graph": "https://api.bgpview.io/assets/graphs/AS61138_Combined.svg"
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "24.1 ms"
+  }
+}

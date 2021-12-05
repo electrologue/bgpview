@@ -1,0 +1,134 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "prefix": "192.209.63.0/24",
+    "ip": "192.209.63.0",
+    "cidr": 24,
+    "asns": [
+      {
+        "asn": 1239,
+        "name": "SPRINTLINK",
+        "description": "Sprint",
+        "country_code": "US",
+        "prefix_upstreams": [
+          {
+            "asn": 3320,
+            "name": "DTAG",
+            "description": "Internet service provider operations",
+            "country_code": "DE"
+          },
+          {
+            "asn": 2497,
+            "name": "IIJ",
+            "description": "Internet Initiative Japan Inc.",
+            "country_code": "JP"
+          },
+          {
+            "asn": 3356,
+            "name": "LEVEL3",
+            "description": "Level 3 Parent, LLC",
+            "country_code": "US"
+          },
+          {
+            "asn": 2914,
+            "name": "NTT-COMMUNICATIONS-2914",
+            "description": "NTT America, Inc.",
+            "country_code": "US"
+          },
+          {
+            "asn": 701,
+            "name": "UUNET",
+            "description": "MCI Communications Services, Inc. d/b/a Verizon Business",
+            "country_code": "US"
+          },
+          {
+            "asn": 6453,
+            "name": "AS6453",
+            "description": "TATA COMMUNICATIONS (AMERICA) INC",
+            "country_code": "US"
+          },
+          {
+            "asn": 174,
+            "name": "COGENT-174",
+            "description": "Cogent Communications",
+            "country_code": "US"
+          },
+          {
+            "asn": 1299,
+            "name": "TWELVE99",
+            "description": "Twelve99, Telia Carrier",
+            "country_code": "SE"
+          },
+          {
+            "asn": 3257,
+            "name": "GTT-BACKBONE",
+            "description": "GTT",
+            "country_code": "US"
+          },
+          {
+            "asn": 7018,
+            "name": "ATT-INTERNET4",
+            "description": "AT&T Services, Inc.",
+            "country_code": "US"
+          },
+          {
+            "asn": 6461,
+            "name": "ZAYO-6461",
+            "description": "Zayo Bandwidth",
+            "country_code": "US"
+          }
+        ]
+      }
+    ],
+    "name": "BITACCEL-NETWORK",
+    "description_short": "BitAccel",
+    "description_full": [
+      "BitAccel"
+    ],
+    "email_contacts": [
+      "abuse@bitaccel.com"
+    ],
+    "abuse_contacts": [
+      "abuse@bitaccel.com"
+    ],
+    "owner_address": [
+      "135 Red Head Ln.",
+      "Gilmer",
+      "TX",
+      "75645",
+      "US"
+    ],
+    "country_codes": {
+      "whois_country_code": "US",
+      "rir_allocation_country_code": "US",
+      "maxmind_country_code": null
+    },
+    "rir_allocation": {
+      "rir_name": "ARIN",
+      "country_code": "US",
+      "ip": "192.209.62.0",
+      "cidr": 23,
+      "prefix": "192.209.62.0/23",
+      "date_allocated": "2015-04-28 00:00:00",
+      "allocation_status": "allocated"
+    },
+    "iana_assignment": {
+      "assignment_status": "assigned",
+      "description": "Assigned by ARIN",
+      "whois_server": "whois.arin.net",
+      "date_assigned": null
+    },
+    "maxmind": {
+      "country_code": null,
+      "city": null
+    },
+    "related_prefixes": [],
+    "date_updated": "2020-12-06 03:30:13"
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "442.72 ms"
+  }
+}

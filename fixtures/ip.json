@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "ip": "2a05:dfc7:60::",
+    "ptr_record": null,
+    "prefixes": [
+      {
+        "prefix": "2a05:dfc0::/29",
+        "ip": "2a05:dfc0::",
+        "cidr": 29,
+        "asn": {
+          "asn": 61138,
+          "name": "ZAPPIE-HOST-AS",
+          "description": "Zappie Host",
+          "country_code": "US"
+        },
+        "name": "US-ZAPPIE-20150303",
+        "description": "Zappie Host LLC",
+        "country_code": "GB"
+      }
+    ],
+    "rir_allocation": {
+      "rir_name": "RIPE",
+      "country_code": "US",
+      "ip": "2a05:dfc0::",
+      "cidr": "29",
+      "prefix": "2a05:dfc0::/29",
+      "date_allocated": "2015-03-03 00:00:00",
+      "allocation_status": "allocated"
+    },
+    "iana_assignment": {
+      "assignment_status": "allocated",
+      "description": "RIPE NCC",
+      "whois_server": "whois.ripe.net",
+      "date_assigned": null
+    },
+    "maxmind": {
+      "country_code": null,
+      "city": null
+    }
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "57.3 ms"
+  }
+}

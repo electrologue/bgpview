@@ -1,0 +1,687 @@
+{
+  "status": "ok",
+  "status_message": "Query was successful",
+  "data": {
+    "ipv4_prefixes": [
+      {
+        "prefix": "45.67.13.0/24",
+        "ip": "45.67.13.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "QUICKVIRT-PRA01",
+        "description": "QUICKVIRT PRA01",
+        "country_code": "CZ",
+        "parent": {
+          "prefix": "45.67.12.0/22",
+          "ip": "45.67.12.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "45.146.105.0/24",
+        "ip": "45.146.105.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": null,
+        "description": null,
+        "country_code": null,
+        "parent": {
+          "prefix": null,
+          "ip": null,
+          "cidr": null,
+          "rir_name": null,
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "45.155.65.0/24",
+        "ip": "45.155.65.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "Heficed",
+        "description": "UAB Xantho",
+        "country_code": "GB",
+        "parent": {
+          "prefix": "45.155.64.0/22",
+          "ip": "45.155.64.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "45.155.66.0/24",
+        "ip": "45.155.66.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "Heficed",
+        "description": "UAB Xantho",
+        "country_code": "GB",
+        "parent": {
+          "prefix": "45.155.64.0/22",
+          "ip": "45.155.64.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "89.117.126.0/24",
+        "ip": "89.117.126.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "LT-LRTC-20060503",
+        "description": "SC \"Lithuanian Radio and TV Center\"",
+        "country_code": "LT",
+        "parent": {
+          "prefix": "89.116.0.0/15",
+          "ip": "89.116.0.0",
+          "cidr": 15,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "103.208.86.0/24",
+        "ip": "103.208.86.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ-3",
+        "description": "Zappie Host - Auckland, New Zealand",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "103.208.84.0/22",
+          "ip": "103.208.84.0",
+          "cidr": 22,
+          "rir_name": "APNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "104.247.99.0/24",
+        "ip": "104.247.99.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "DNET",
+        "description": "Dnetworks LLC",
+        "country_code": "US",
+        "parent": {
+          "prefix": "104.247.99.0/24",
+          "ip": "104.247.99.0",
+          "cidr": 24,
+          "rir_name": "ARIN",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "144.48.80.0/24",
+        "ip": "144.48.80.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "BITACCEL-NETWORK",
+        "description": "BitAccel",
+        "country_code": "US",
+        "parent": {
+          "prefix": "144.48.80.0/22",
+          "ip": "144.48.80.0",
+          "cidr": 22,
+          "rir_name": "APNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "169.239.128.0/23",
+        "ip": "169.239.128.0",
+        "cidr": 23,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-ZA-1",
+        "description": "Zappie Host - Johannesburg, South Africa",
+        "country_code": "ZA",
+        "parent": {
+          "prefix": "169.239.128.0/22",
+          "ip": "169.239.128.0",
+          "cidr": 22,
+          "rir_name": "AfriNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "169.239.130.0/23",
+        "ip": "169.239.130.0",
+        "cidr": 23,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-ZA-2",
+        "description": "Zappie Host - Johannesburg, South Africa",
+        "country_code": "ZA",
+        "parent": {
+          "prefix": "169.239.128.0/22",
+          "ip": "169.239.128.0",
+          "cidr": 22,
+          "rir_name": "AfriNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "185.99.132.0/24",
+        "ip": "185.99.132.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ",
+        "description": "Zappie Host - Auckland, New Zealand",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "185.99.132.0/22",
+          "ip": "185.99.132.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "185.99.133.0/24",
+        "ip": "185.99.133.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ",
+        "description": "Zappie Host - Auckland, New Zealand",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "185.99.132.0/22",
+          "ip": "185.99.132.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "185.121.168.0/24",
+        "ip": "185.121.168.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ",
+        "description": "Zappie Host - Auckland, New Zealand",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "185.121.168.0/22",
+          "ip": "185.121.168.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "185.195.239.0/24",
+        "ip": "185.195.239.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAP-NZ-ISP-PREFIX",
+        "description": "Zappie ISP Services - New Zealand",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "185.195.236.0/22",
+          "ip": "185.195.236.0",
+          "cidr": 22,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "216.73.158.0/24",
+        "ip": "216.73.158.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAP-CID-6006",
+        "description": "Private Customer",
+        "country_code": "US",
+        "parent": {
+          "prefix": "216.73.156.0/22",
+          "ip": "216.73.156.0",
+          "cidr": 22,
+          "rir_name": "ARIN",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "216.73.159.0/24",
+        "ip": "216.73.159.0",
+        "cidr": 24,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-CL-1",
+        "description": "Zappie Host - Valdivia, Chile",
+        "country_code": "CL",
+        "parent": {
+          "prefix": "216.73.156.0/22",
+          "ip": "216.73.156.0",
+          "cidr": 22,
+          "rir_name": "ARIN",
+          "allocation_status": "unknown"
+        }
+      }
+    ],
+    "ipv6_prefixes": [
+      {
+        "prefix": "2404:3d80::/32",
+        "ip": "2404:3d80::",
+        "cidr": 32,
+        "roa_status": "None",
+        "name": "ZAPPIEHOST-AP-20160203",
+        "description": "Zappie Host LLC",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2404:3d80::/32",
+          "ip": "2404:3d80::",
+          "cidr": 32,
+          "rir_name": "APNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2407:c280:b103::/48",
+        "ip": "2407:c280:b103::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "DavidLiu",
+        "description": "fixmix Technologies Ltd",
+        "country_code": "EU",
+        "parent": {
+          "prefix": "2407:c280::/32",
+          "ip": "2407:c280::",
+          "cidr": 32,
+          "rir_name": "APNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a05:dfc0::/29",
+        "ip": "2a05:dfc0::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "US-ZAPPIE-20150303",
+        "description": "Zappie Host LLC",
+        "country_code": "GB",
+        "parent": {
+          "prefix": "2a05:dfc0::/29",
+          "ip": "2a05:dfc0::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280::/29",
+        "ip": "2a06:1280::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "US-ZAPPIE-20150507",
+        "description": "Zappie Host LLC",
+        "country_code": "BY",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280::/32",
+        "ip": "2a06:1280::",
+        "cidr": 32,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ-v6",
+        "description": "Zappie Host - Auckland, New Zealand v6",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:ae02::/48",
+        "ip": "2a06:1280:ae02::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ-v6",
+        "description": "Zappie Host - Auckland, New Zealand v6",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:aee1::/48",
+        "ip": "2a06:1280:aee1::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": null,
+        "description": null,
+        "country_code": "US",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:c0de::/48",
+        "ip": "2a06:1280:c0de::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "THENETWORKCREW-AU",
+        "description": "The Network Crew Pty Ltd",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:ce01::/48",
+        "ip": "2a06:1280:ce01::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "NICE-CO-NZ-v6",
+        "description": "Nice.co.nz Ltd IPv6",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:ce02::/48",
+        "ip": "2a06:1280:ce02::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-NZ-v6",
+        "description": "Zappie Host - Auckland, New Zealand v6",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:1280:ce04::/48",
+        "ip": "2a06:1280:ce04::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "c9bdd059-ad72-4382-8d8d-da98a40d563e",
+        "description": "Kevin Holly trading as Silent Ghost e.U.",
+        "country_code": "NL",
+        "parent": {
+          "prefix": "2a06:1280::/29",
+          "ip": "2a06:1280::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:9f80::/29",
+        "ip": "2a06:9f80::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "US-ZAPPIE-20151015",
+        "description": "Zappie Host LLC",
+        "country_code": "VA",
+        "parent": {
+          "prefix": "2a06:9f80::/29",
+          "ip": "2a06:9f80::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:a006::/32",
+        "ip": "2a06:a006::",
+        "cidr": 32,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-CL-1",
+        "description": "Zappie Host - Valdivia, Chile",
+        "country_code": "CL",
+        "parent": {
+          "prefix": "2a06:a000::/29",
+          "ip": "2a06:a000::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a06:e881:6203::/48",
+        "ip": "2a06:e881:6203::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "FR-RANXPLORER-20190213",
+        "description": "Ranxplorer",
+        "country_code": "FR",
+        "parent": {
+          "prefix": "2a06:e880::/29",
+          "ip": "2a06:e880::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a07:54c0::/29",
+        "ip": "2a07:54c0::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "US-ZAPPIE-20160412",
+        "description": "Zappie Host LLC",
+        "country_code": "IM",
+        "parent": {
+          "prefix": "2a07:54c0::/29",
+          "ip": "2a07:54c0::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a09:54c0::/29",
+        "ip": "2a09:54c0::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "NZ-KIWIANAHOSTING-20190208",
+        "description": "Kiwiana Hosting Limited",
+        "country_code": "CY",
+        "parent": {
+          "prefix": "2a09:54c0::/29",
+          "ip": "2a09:54c0::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0a:6040::/29",
+        "ip": "2a0a:6040::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "US-ZAP-20170323",
+        "description": "Zappie Host LLC",
+        "country_code": "US",
+        "parent": {
+          "prefix": null,
+          "ip": null,
+          "cidr": null,
+          "rir_name": null,
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0b:9e40::/29",
+        "ip": "2a0b:9e40::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "NZ-MONTEHOSTING-20170726",
+        "description": "MonteHosting LTD",
+        "country_code": "ME",
+        "parent": {
+          "prefix": "2a0b:9e40::/29",
+          "ip": "2a0b:9e40::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0c:9a40:8082::/48",
+        "ip": "2a0c:9a40:8082::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": null,
+        "description": null,
+        "country_code": null,
+        "parent": {
+          "prefix": null,
+          "ip": null,
+          "cidr": null,
+          "rir_name": null,
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0c:b642:1a0e::/48",
+        "ip": "2a0c:b642:1a0e::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "RANEXPLORER_220219",
+        "description": "Ranxplorer",
+        "country_code": "FR",
+        "parent": {
+          "prefix": "2a0c:b640::/29",
+          "ip": "2a0c:b640::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0c:e640:24::/48",
+        "ip": "2a0c:e640:24::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": "FIXMIX-NET6-AKL",
+        "description": "fixmix GEN - Auckland",
+        "country_code": "NZ",
+        "parent": {
+          "prefix": "2a0c:e640::/29",
+          "ip": "2a0c:e640::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0d:d900::/29",
+        "ip": "2a0d:d900::",
+        "cidr": 29,
+        "roa_status": "None",
+        "name": "NZ-HOSTINGLOVE-20171213",
+        "description": "HostingLove LImited",
+        "country_code": "FR",
+        "parent": {
+          "prefix": "2a0d:d900::/29",
+          "ip": "2a0d:d900::",
+          "cidr": 29,
+          "rir_name": "RIPE",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0e:fd45:40fd::/48",
+        "ip": "2a0e:fd45:40fd::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": null,
+        "description": null,
+        "country_code": null,
+        "parent": {
+          "prefix": null,
+          "ip": null,
+          "cidr": null,
+          "rir_name": null,
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2a0f:5707:ab2f::/48",
+        "ip": "2a0f:5707:ab2f::",
+        "cidr": 48,
+        "roa_status": "None",
+        "name": null,
+        "description": null,
+        "country_code": null,
+        "parent": {
+          "prefix": null,
+          "ip": null,
+          "cidr": null,
+          "rir_name": null,
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2c0f:f530::/44",
+        "ip": "2c0f:f530::",
+        "cidr": 44,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-ZA-V6",
+        "description": "Zappie Host - Johannesburg, South Africa v6",
+        "country_code": "ZA",
+        "parent": {
+          "prefix": "2c0f:f530::/32",
+          "ip": "2c0f:f530::",
+          "cidr": 32,
+          "rir_name": "AfriNIC",
+          "allocation_status": "unknown"
+        }
+      },
+      {
+        "prefix": "2c0f:f530:20::/44",
+        "ip": "2c0f:f530:20::",
+        "cidr": 44,
+        "roa_status": "None",
+        "name": "ZAPPIE-HOST-ZA-V6",
+        "description": "Zappie Host - Johannesburg, South Africa v6",
+        "country_code": "ZA",
+        "parent": {
+          "prefix": "2c0f:f530::/32",
+          "ip": "2c0f:f530::",
+          "cidr": 32,
+          "rir_name": "AfriNIC",
+          "allocation_status": "unknown"
+        }
+      }
+    ]
+  },
+  "@meta": {
+    "time_zone": "UTC",
+    "api_version": 1,
+    "execution_time": "50.85 ms"
+  }
+}
