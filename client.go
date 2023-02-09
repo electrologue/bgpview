@@ -34,13 +34,10 @@ func NewClient() *Client {
 
 // GetASN gets ASN.
 func (c Client) GetASN(ctx context.Context, asNumber int) (*ASNInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "asn", strconv.Itoa(asNumber)))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("asn", strconv.Itoa(asNumber))
 
 	var apiResp ASNInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -66,13 +63,10 @@ func (c Client) GetASNPrefixes(ctx context.Context, asNumber int) (*ASNPrefixesI
 
 // GetASNPeers gets ASN peers.
 func (c Client) GetASNPeers(ctx context.Context, asNumber int) (*ASNPeersInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "asn", strconv.Itoa(asNumber), "peers"))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("asn", strconv.Itoa(asNumber), "peers")
 
 	var apiResp ASNPeersInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -82,13 +76,10 @@ func (c Client) GetASNPeers(ctx context.Context, asNumber int) (*ASNPeersInfo, e
 
 // GetASNUpstreams gets ASN upstreams.
 func (c Client) GetASNUpstreams(ctx context.Context, asNumber int) (*ASNUpstreamsInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "asn", strconv.Itoa(asNumber), "upstreams"))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("asn", strconv.Itoa(asNumber), "upstreams")
 
 	var apiResp ASNUpstreamsInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -98,13 +89,10 @@ func (c Client) GetASNUpstreams(ctx context.Context, asNumber int) (*ASNUpstream
 
 // GetASNDownstreams gets ASN downstreams.
 func (c Client) GetASNDownstreams(ctx context.Context, asNumber int) (*ASNDownstreamsInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "asn", strconv.Itoa(asNumber), "downstreams"))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("asn", strconv.Itoa(asNumber), "downstreams")
 
 	var apiResp ASNDownstreamsInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -114,13 +102,10 @@ func (c Client) GetASNDownstreams(ctx context.Context, asNumber int) (*ASNDownst
 
 // GetASNIxs gets ASN IXs.
 func (c Client) GetASNIxs(ctx context.Context, asNumber int) (*ASNIxsInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "asn", strconv.Itoa(asNumber), "ixs"))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("asn", strconv.Itoa(asNumber), "ixs")
 
 	var apiResp ASNIxsInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -130,13 +115,10 @@ func (c Client) GetASNIxs(ctx context.Context, asNumber int) (*ASNIxsInfo, error
 
 // GetPrefix gets Prefix.
 func (c Client) GetPrefix(ctx context.Context, ipAddress string, cidr int) (*PrefixInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "prefix", ipAddress, strconv.Itoa(cidr)))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("prefix", ipAddress, strconv.Itoa(cidr))
 
 	var apiResp PrefixInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -146,13 +128,10 @@ func (c Client) GetPrefix(ctx context.Context, ipAddress string, cidr int) (*Pre
 
 // GetIP gets IP.
 func (c Client) GetIP(ctx context.Context, ipAddress string) (*IPInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "ip", ipAddress))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("ip", ipAddress)
 
 	var apiResp IPInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -162,13 +141,10 @@ func (c Client) GetIP(ctx context.Context, ipAddress string) (*IPInfo, error) {
 
 // GetIX gets IX.
 func (c Client) GetIX(ctx context.Context, ixID int) (*IXInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "ix", strconv.Itoa(ixID)))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("ix", strconv.Itoa(ixID))
 
 	var apiResp IXInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}
@@ -178,17 +154,14 @@ func (c Client) GetIX(ctx context.Context, ixID int) (*IXInfo, error) {
 
 // GetSearch searches resources by ASN, IP, Prefix, Name, Description.
 func (c Client) GetSearch(ctx context.Context, term string) (*SearchInfo, error) {
-	endpoint, err := c.baseURL.Parse(path.Join(c.baseURL.Path, "search"))
-	if err != nil {
-		return nil, err
-	}
+	endpoint := c.baseURL.JoinPath("search")
 
 	query := endpoint.Query()
 	query.Set("query_term", term)
 	endpoint.RawQuery = query.Encode()
 
 	var apiResp SearchInfo
-	err = c.do(ctx, endpoint, &apiResp)
+	err := c.do(ctx, endpoint, &apiResp)
 	if err != nil {
 		return nil, err
 	}

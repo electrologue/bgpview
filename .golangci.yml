@@ -6,30 +6,39 @@ run:
 linters:
   enable-all: true
   disable:
-    - maligned
-    - interfacer
-    - scopelint
-    - golint
-    - sqlclosecheck
-    - rowserrcheck
-    - cyclop
-    - lll
-    - dupl
-    - wsl
-    - nlreturn
-    - gomnd
-    - goerr113
-    - wrapcheck
-    - exhaustive
+    - deadcode
+    - execinquery
     - exhaustivestruct
-    - testpackage
-    - tparallel
+    - golint
+    - ifshort
+    - interfacer
+    - maligned
+    - nosnakecase
+    - rowserrcheck
+    - scopelint
+    - sqlclosecheck
+    - structcheck
+    - varcheck
+
+    - cyclop
+    - dupl
+    - exhaustive
+    - exhaustruct
+    - forcetypeassert
+    - ginkgolinter
+    - goerr113
+    - gomnd
+    - ifshort
+    - lll
+    - nilnil
+    - nlreturn
     - paralleltest
     - prealloc
-    - ifshort
-    - forcetypeassert
+    - testpackage
+    - tparallel
     - varnamelen
-    - nilnil
+    - wrapcheck
+    - wsl
 
 linters-settings:
   govet:
@@ -82,10 +91,9 @@ issues:
   exclude-use-default: false
   max-per-linter: 0
   max-same-issues: 0
-  exclude: [
-    "exported: exported type ",
-    "G307:", # Deferring unsafe method "Close" on type "*os.File"
-  ]
+  exclude:
+    - "exported: exported type "
+    - "G307:" # Deferring unsafe method "Close" on type "*os.File"
   exclude-rules:
     - path: '\\*_test.go'
       text: "G304:" # Potential file inclusion via variable
